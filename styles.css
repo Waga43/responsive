@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 1440px) {
+    body{
+        background-image: url(images/bg-intro-desktop.png);
+        background-color: hsl(0, 100%, 74%);
+        display: flex;
+    }
+
+    .col{
+        width: 50%;
+        float: left;
+    }
+    .form{
+        background-color: white;
+    }
+
+    .container{
+        flex: wrap;
+
+    }
+
+    .claim{
+        background-color: hsl(154, 59%, 51%);
+    }
+
+    .claim:active{
+
+    }
+
+    .try{
+        background-color: hsl(248, 32%, 49%);
+        padding: 20px;
+        text-align: center;
+    }
+
+    .form{
+        flex: wrap;
+    }
+    
+    
+
+}
+
+#media screen and (max-width: 375px) {
+    body {
+        background-image: url(images/bg-intro-mobile.png);
+        background-color: hsl(0, 100%, 74%);
+           
+    }
+
+    .claim{
+        background-color: hsl(154, 59%, 51%);
+    }
+
+    .upper{
+        background-color: hsl(248, 32%, 49%);
+        padding: 20px;
+        text-align: center;
+    }
+    
+}
